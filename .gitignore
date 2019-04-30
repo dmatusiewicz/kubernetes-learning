@@ -1,0 +1,17 @@
+### Terraform ###
+# Compiled files
+**/*.tfstate
+**/*.tfplan
+**/*.tfstate.backup
+**/.terraform
+**/.terraform/*
+**/terraform.tfstate
+**/tfenv
+
+infrastructure/modules/kubernetes_base
+infrastructure/modules/subnet_base
+
+### OSX ###
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
